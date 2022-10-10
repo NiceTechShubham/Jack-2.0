@@ -1,0 +1,18 @@
+
+
+#First you have to install python_3 and a Python IDE.
+# I suggest you to use VSCODE.
+
+1. Open Command Prompt as Administrator.
+2. Type these commands and hit enter:-
+	(a) pip install wolframalpha
+	(b) pip install wikipedia
+	(c) pip install pyttsx3
+	(d) pip install SpeechRecognition
+	(e) pip install python-vlc 
+	(f) pip install pyaudio
+
+# Create an account in WolframAlpha and create a app_id after that you have to insert your wolframalpha app_id into the code.
+# Replace "YOUR_WOLFRAMALPHA_APP_ID" to your app_id.
+	
+# You can add more modules and commands as per your requirements. And you can modify it as you like.
