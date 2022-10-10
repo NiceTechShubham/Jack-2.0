@@ -106,13 +106,13 @@ while True:
         elif q=="tell me your specification" or q=="tell me your configuration" or q=="what is your configuration" or q=="what is your specifications":
             speak("i am jack two poin o, my random operating memory is one tera byte, proccessor is ryzen 5 2500u, Random access memory eight gb and my host is lenovo ideapad 330 and i am created by mister Shuhbham Kunar.")
         elif  q=="play some music" or q=="play a music" or q=="play music" or q=="play your favourite music" or q=="your favourite music":
-            p=vlc.MediaPlayer("C:\\Users\\Shubham\\Desktop\\Jack 2.0\\Files\\despacito.mp3")
+            p=vlc.MediaPlayer("Enter Your Music1 Location. Example:-C:\\Users\\Shubham\\Desktop\\Jack 2.0\\Files\\relax.mp3")
             p.play()
         elif  q=="relax music" or q=="play some relaxing music" or q=="play some relax music" or q=="play a relax music" or q=="play my music" or q=="play my favourite music" or q=="play relax music" or q=="play a relaxing music":
-            p=vlc.MediaPlayer("C:\\Users\\Shubham\\Desktop\\Jack 2.0\\Files\\relax.mp3")
+            p=vlc.MediaPlayer("Enter Your Music2 Location.")
             p.play()
         elif  q=="play some evergreen music" or q=="play a old music" or q=="play evergreen music" or q=="play classic music":
-            p=vlc.MediaPlayer("C:\\Users\\Shubham\\Desktop\\Jack 2.0\\Files\\evergreen.mp3")
+            p=vlc.MediaPlayer("Enter Your Music3 Location.")
             p.play()
         elif "turn on" in q or "on the light" in q:
             speak("turning on")
